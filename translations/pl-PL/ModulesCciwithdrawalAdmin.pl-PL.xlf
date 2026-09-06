@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="Modules.Cciwithdrawal.Admin.xlf" source-language="en" target-language="pl" datatype="plaintext">
+    <body>
+      <trans-unit id="41fb0ba2b4695bf1efa4966cac7e1904" approved="yes">
+        <source>CCI Withdrawal Form</source>
+        <target state="final">CCI Withdrawal Form</target>
+        <note>File: modules/cci_withdrawal/cci_withdrawal.php</note>
+      </trans-unit>
+      <trans-unit id="d0104d242aab65584c0576a6ea266d05" approved="yes">
+        <source>Adds a public online withdrawal form for customers and guest orders.</source>
+        <target state="final">Dodaje publiczny formularz odstąpienia od umowy dla klientów i zamówień gości.</target>
+        <note>File: modules/cci_withdrawal/cci_withdrawal.php</note>
+      </trans-unit>
+      <trans-unit id="bd561e6dade237b03c594bac692e2062" approved="yes">
+        <source>Let customers and guests submit a full or partial withdrawal statement online, then handle the confirmed request in the standard PrestaShop returns workflow.</source>
+        <target state="final">Klient lub gość składa online pełne albo częściowe oświadczenie o odstąpieniu, a potwierdzone zgłoszenie trafia do standardowych zwrotów PrestaShop.</target>
+      </trans-unit>
+      <trans-unit id="a34defd2344a2aba40f024c6656e57a4" approved="yes">
+        <source>PrestaShop merchandise returns are disabled. Enable them in Order settings before publishing the withdrawal form.</source>
+        <target state="final">Zwroty produktów PrestaShop są wyłączone. Włącz je w ustawieniach zamówień przed opublikowaniem formularza odstąpienia.</target>
+      </trans-unit>
+      <trans-unit id="d399ddeb37f0fdb10f60419f0f991acc" approved="yes">
+        <source>Withdrawal eligibility</source>
+        <target state="final">Uprawnienie do odstąpienia</target>
+      </trans-unit>
+      <trans-unit id="346f1f8db83ba57813e1fe4018c1c726" approved="yes">
+        <source>The public form creates native PrestaShop merchandise returns. Use these settings only for goods that are genuinely excluded from the statutory right of withdrawal.</source>
+        <target state="final">Publiczny formularz tworzy natywne zwroty produktów PrestaShop. Użyj tych ustawień wyłącznie dla towarów rzeczywiście wyłączonych z ustawowego prawa odstąpienia.</target>
+      </trans-unit>
+      <trans-unit id="8a60327baa48b5f5a7dedbd40a0bdec8" approved="yes">
+        <source>Exclude customized order lines</source>
+        <target state="final">Wyłącz personalizowane pozycje zamówienia</target>
+      </trans-unit>
+      <trans-unit id="4d0293d3bf8bf717e49837f19f994d25" approved="yes">
+        <source>Automatically excludes order lines containing native PrestaShop customization data.</source>
+        <target state="final">Automatycznie wyłącza pozycje zawierające natywne dane personalizacji PrestaShop.</target>
+      </trans-unit>
+      <trans-unit id="887cad1986b2082eb088b8dbc7ff07d4" approved="yes">
+        <source>Other excluded product IDs</source>
+        <target state="final">Identyfikatory pozostałych wyłączonych produktów</target>
+      </trans-unit>
+      <trans-unit id="c4b6999e1631eee8f68db6499ff195a3" approved="yes">
+        <source>Comma-separated product IDs, for example: 12,34,56. Use this for made-to-order goods not represented by native customization data.</source>
+        <target state="final">Identyfikatory produktów oddzielone przecinkami, np. 12,34,56. Użyj dla towarów wykonywanych na zamówienie, których nie obejmują natywne dane personalizacji.</target>
+      </trans-unit>
+      <trans-unit id="fa0b3a436256da5c70764e2f62fe9fa0" approved="yes">
+        <source>Show consumer purchases</source>
+        <target state="final">Pokaż zakupy konsumenckie</target>
+      </trans-unit>
+      <trans-unit id="8fc2e6bcd5c3e87b2fd3be02cbe9094c" approved="yes">
+        <source>Allows customers purchasing outside any business activity to use the statutory withdrawal form.</source>
+        <target state="final">Pozwala klientom kupującym poza działalnością gospodarczą korzystać z ustawowego formularza odstąpienia.</target>
+      </trans-unit>
+      <trans-unit id="fab029804e69fd315f21a0d8379abcae" approved="yes">
+        <source>Show non-professional sole trader purchases</source>
+        <target state="final">Pokaż niezawodowe zakupy jednoosobowych działalności</target>
+      </trans-unit>
+      <trans-unit id="e6433d5383f992d07d2c828884d8893d" approved="yes">
+        <source>Allows a sole trader to use the form after declaring that the purchase was not professional in nature.</source>
+        <target state="final">Pozwala osobie prowadzącej jednoosobową działalność skorzystać z formularza po oświadczeniu, że zakup nie miał charakteru zawodowego.</target>
+      </trans-unit>
+      <trans-unit id="525cdb4616a630a977d2f13f744d11b6" approved="yes">
+        <source>Show company and professional purchases</source>
+        <target state="final">Pokaż zakupy firmowe i zawodowe</target>
+      </trans-unit>
+      <trans-unit id="d19f4de41ee68b24facfbd3e485fc4fd" approved="yes">
+        <source>Displays an informational option directing a business customer to ask about a voluntary return. It does not create a merchandise return.</source>
+        <target state="final">Wyświetla informację kierującą klienta firmowego do kontaktu w sprawie dobrowolnego zwrotu. Ta opcja nie tworzy zwrotu produktu.</target>
+      </trans-unit>
+      <trans-unit id="47140583f69bf1beebfc9bb26a5963eb" approved="yes">
+        <source>Enable at least one purchase capacity option.</source>
+        <target state="final">Włącz co najmniej jedną opcję charakteru zakupu.</target>
+      </trans-unit>
+      <trans-unit id="08a95227f8ec2ae6aad8018c4f98e463" approved="yes">
+        <source>Allow guest orders</source>
+        <target state="final">Zezwalaj na zamówienia gości</target>
+      </trans-unit>
+      <trans-unit id="847f413fe0a40a00ffdef9d57b430473" approved="yes">
+        <source>Allows a guest customer to submit the form using the order reference and email address.</source>
+        <target state="final">Pozwala klientowi kupującemu jako gość wysłać formularz przy użyciu numeru zamówienia i adresu e-mail.</target>
+      </trans-unit>
+      <trans-unit id="4fe88bf25ce2e52719695396569d2f9a" approved="yes">
+        <source>Show additional information field</source>
+        <target state="final">Pokaż pole dodatkowych informacji</target>
+      </trans-unit>
+      <trans-unit id="5172cf680b3f7ea47f460a048fdca7e9" approved="yes">
+        <source>Displays an optional message field in the withdrawal form.</source>
+        <target state="final">Wyświetla opcjonalne pole wiadomości w formularzu odstąpienia.</target>
+      </trans-unit>
+      <trans-unit id="cc2f2dfd8cb2520b24b2fd095dd5f6ba" approved="yes">
+        <source>Require additional information</source>
+        <target state="final">Wymagaj dodatkowych informacji</target>
+      </trans-unit>
+      <trans-unit id="e0791347a7d0304cb2647fbc4d0a238c" approved="yes">
+        <source>Makes the additional information field mandatory when it is displayed.</source>
+        <target state="final">Ustawia pole dodatkowych informacji jako wymagane, gdy jest wyświetlane.</target>
+      </trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_1"><source>Withdrawal form settings</source><target>Ustawienia formularza odstąpienia</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_2"><source>Control who can use the form and which goods are excluded from the statutory withdrawal workflow.</source><target>Ustaw, kto może korzystać z formularza i które towary są wyłączone z ustawowej procedury odstąpienia.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_3"><source>Collect online withdrawal statements and handle every accepted request in the native PrestaShop merchandise return workflow.</source><target>Zbieraj oświadczenia o odstąpieniu online i obsługuj każde przyjęte zgłoszenie w natywnym procesie zwrotów produktów PrestaShop.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_4"><source>Open withdrawal requests</source><target>Otwórz zgłoszenia odstąpień</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_5"><source>Open public form</source><target>Otwórz formularz publiczny</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_7"><source>This module is only a fraction of what we do. We deliver custom IT solutions that grow with your business. We ensure complete code optimization and security.</source><target>Ten moduł to tylko ułamek tego, co robimy. Tworzymy rozwiązania IT, które można rozwijać razem z Twoją firmą. Dbamy o szybkość i bezpieczeństwo kodu.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_8"><source>We implement and develop:</source><target>Wdrażamy i rozwijamy:</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_9"><source>Fast e-commerce on %highlight% (from implementations to custom modules)</source><target>Szybki e-commerce na %highlight% (od wdrożeń po własne wtyczki)</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_10"><source>Flexible and modern %highlight% websites</source><target>Elastyczne i nowoczesne strony %highlight%</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_11"><source>Scalable web applications in %highlight%</source><target>Skalowalne aplikacje webowe w %highlight%</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_12"><source>Process automation and %highlight%</source><target>Automatyzację procesów i %highlight%</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_13"><source>API integrations</source><target>Integracje API</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_15"><source>See our offer</source><target>Zobacz naszą ofertę</target></trans-unit>
+      <trans-unit id="23f55cb2a6ea84f8fc262a03a0c34b7a"><source>Submitted withdrawal statements</source><target>Przesłane odstąpienia od umowy</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_tabs_1"><source>Submitted withdrawals</source><target>Przesłane odstąpienia</target></trans-unit>
+      <trans-unit id="c331be104c581b2f6aa0058a3b02f82a"><source>Request ID</source><target>ID zgłoszenia</target></trans-unit>
+      <trans-unit id="cf2abf9054acb6c023b104d18ad4b3a3"><source>Purchase capacity</source><target>Typ kupującego</target></trans-unit>
+      <trans-unit id="e129574ee46819b1977c55b333836c71"><source>Products / qty</source><target>Produkty / szt.</target></trans-unit>
+      <trans-unit id="f0dc5a7e50af112eee854e8cee968e06"><source>Submission date</source><target>Data zgłoszenia</target></trans-unit>
+      <trans-unit id="f8afcf8657de570a0369d438894eed5b"><source>Consumer</source><target>Konsument</target></trans-unit>
+      <trans-unit id="8f1385082dc9ddd2ab34037086857b23"><source>Sole trader without professional purchase purpose</source><target>Jednoosobowa działalność bez charakteru zawodowego</target></trans-unit>
+      <trans-unit id="66547e24d582a1542566c342db85ca28"><source>Company / professional purchase</source><target>Firma / zakup zawodowy</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_list_brand_1"><source>Collect online withdrawal statements and handle accepted requests in the native PrestaShop merchandise return workflow.</source><target>Zbieraj oświadczenia o odstąpieniu online i obsługuj przyjęte zgłoszenia w natywnym procesie zwrotów produktów PrestaShop.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_list_brand_2"><source>Review withdrawal statements submitted from the public form.</source><target>Sprawdzaj oświadczenia przesłane przez publiczny formularz odstąpienia.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_native_returns_1"><source>Built on PrestaShop returns</source><target>Oparte na zwrotach PrestaShop</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_native_returns_2"><source>This module is an overlay for the native PrestaShop merchandise return mechanism. Return activation, return period and RMA prefix are managed in PrestaShop settings.</source><target>Ten moduł jest nakładką na natywny mechanizm zwrotów produktów PrestaShop. Włączenie zwrotów, termin zwrotu i prefiks RMA ustawiasz w PrestaShop.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_native_returns_3"><source>Open PrestaShop return settings</source><target>Otwórz ustawienia zwrotów PrestaShop</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_brand_about_us"><source>About us</source><target>O nas</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_description_v2" approved="yes"><source>Records full or partial withdrawal statements independently and links compatible requests to the native PrestaShop returns workflow.</source><target state="final">Zapisuje pełne lub częściowe oświadczenia o odstąpieniu niezależnie i łączy zgodne zgłoszenia z natywnym procesem zwrotów PrestaShop.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_rma_disabled_v2" approved="yes"><source>PrestaShop merchandise returns are disabled. Statements are still recorded and listed for manual review; enable native returns to create RMA records automatically.</source><target state="final">Zwroty produktów PrestaShop są wyłączone. Oświadczenia nadal są zapisywane i widoczne do ręcznej oceny; włącz natywne zwroty, aby automatycznie tworzyć rekordy RMA.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_form_description_v2" approved="yes"><source>The public form always records the statement first. When possible, the module then creates a native PrestaShop merchandise return. Use exclusions only for goods genuinely outside the statutory right.</source><target state="final">Publiczny formularz zawsze najpierw zapisuje oświadczenie. Następnie, gdy jest to możliwe, moduł tworzy natywny zwrot produktów PrestaShop. Wykluczeń używaj tylko dla towarów rzeczywiście nieobjętych prawem ustawowym.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_hero_v2" approved="yes"><source>Record withdrawal statements reliably, then use native PrestaShop returns whenever the order can be represented there.</source><target state="final">Niezawodnie zapisuj oświadczenia o odstąpieniu, a następnie używaj natywnych zwrotów PrestaShop, gdy dane zamówienie można w nich odwzorować.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_native_notice_v2" approved="yes"><source>The withdrawal statement is stored independently. Native return activation, return period and RMA prefix only control the optional RMA adapter in PrestaShop settings.</source><target state="final">Oświadczenie o odstąpieniu jest zapisywane niezależnie. Włączenie zwrotów, termin i prefiks RMA sterują wyłącznie opcjonalnym adapterem RMA w ustawieniach PrestaShop.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_optional_message_v2" approved="yes"><source>Displays an optional message field. It never blocks a statutory withdrawal statement.</source><target state="final">Wyświetla opcjonalne pole wiadomości. Nigdy nie blokuje ono ustawowego oświadczenia o odstąpieniu.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_footer_label" approved="yes"><source>Show the withdrawal link in the footer</source><target state="final">Pokaż link do odstąpienia w stopce</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_footer_desc" approved="yes"><source>Keeps the withdrawal function available from every storefront page.</source><target state="final">Zapewnia dostęp do funkcji odstąpienia z każdej strony sklepu.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_account_label" approved="yes"><source>Show the withdrawal link in the customer account</source><target state="final">Pokaż link do odstąpienia na koncie klienta</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_account_desc" approved="yes"><source>Adds a dedicated shortcut to the customer account.</source><target state="final">Dodaje osobny skrót na koncie klienta.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_orders_label" approved="yes"><source>Show withdrawal links with orders</source><target state="final">Pokaż linki do odstąpienia przy zamówieniach</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_orders_desc" approved="yes"><source>Adds links to supported order-detail views and progressively enhances the standard order history.</source><target state="final">Dodaje linki do obsługiwanych widoków szczegółów zamówienia i rozszerza standardową historię zamówień.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_checkout_label" approved="yes"><source>Show the link after checkout</source><target state="final">Pokaż link po złożeniu zamówienia</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_checkout_desc" approved="yes"><source>Adds an order-specific withdrawal link to the order confirmation page.</source><target state="final">Dodaje link do odstąpienia dotyczący konkretnego zamówienia na stronie jego potwierdzenia.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_order_mail_label" approved="yes"><source>Send the withdrawal access link after an order</source><target state="final">Wyślij link do odstąpienia po złożeniu zamówienia</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_order_mail_desc" approved="yes"><source>Sends a separate transactional message with an order-specific access link because PrestaShop does not expose a safe universal slot inside every order confirmation template.</source><target state="final">Wysyła osobną wiadomość transakcyjną z linkiem do konkretnego zamówienia, ponieważ PrestaShop nie udostępnia bezpiecznego, uniwersalnego miejsca we wszystkich szablonach potwierdzenia zamówienia.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_pdf_label" approved="yes"><source>Attach a PDF confirmation</source><target state="final">Dołącz potwierdzenie PDF</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_pdf_desc" approved="yes"><source>Attaches the exact withdrawal statement to the confirmation email.</source><target state="final">Dołącza dokładną treść oświadczenia o odstąpieniu do e-maila potwierdzającego.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_handling" approved="yes"><source>Handling</source><target state="final">Obsługa</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_native_return" approved="yes"><source>Native return</source><target state="final">Natywny zwrot</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_confirmation" approved="yes"><source>Confirmation</source><target state="final">Potwierdzenie</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_native_created" approved="yes"><source>Native return created</source><target state="final">Utworzono natywny zwrot</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_manual_review" approved="yes"><source>Manual review</source><target state="final">Ręczna ocena</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_attempts" approved="yes"><source>Attempts: %d</source><target state="final">Próby: %d</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_view_statement" approved="yes"><source>View statement</source><target state="final">Zobacz oświadczenie</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_send_again" approved="yes"><source>Send again</source><target state="final">Wyślij ponownie</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_not_found" approved="yes"><source>The withdrawal statement could not be found in this shop.</source><target state="final">Nie znaleziono oświadczenia o odstąpieniu w tym sklepie.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_scope" approved="yes"><source>Scope</source><target state="final">Zakres</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_products_snapshot" approved="yes"><source>Products covered by the statement</source><target state="final">Produkty objęte oświadczeniem</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_immutable_snapshot" approved="yes"><source>Immutable statement snapshot</source><target state="final">Niezmienny snapshot oświadczenia</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_back" approved="yes"><source>Back to statements</source><target state="final">Wróć do oświadczeń</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_retry_success" approved="yes"><source>The confirmation email was sent again.</source><target state="final">E-mail z potwierdzeniem został wysłany ponownie.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_admin_retry_failed" approved="yes"><source>The confirmation email could not be sent. Check the shop mail configuration and the PrestaShop logs.</source><target state="final">Nie udało się wysłać e-maila z potwierdzeniem. Sprawdź konfigurację poczty sklepu i logi PrestaShop.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

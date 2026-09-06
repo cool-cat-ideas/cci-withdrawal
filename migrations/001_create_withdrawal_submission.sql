@@ -1,0 +1,40 @@
+CREATE TABLE IF NOT EXISTS `ps_cci_withdrawal_submission` (
+  `id_cci_withdrawal_submission` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `id_order_return` INT UNSIGNED NULL DEFAULT NULL,
+  `id_order` INT UNSIGNED NOT NULL,
+  `id_customer` INT UNSIGNED NOT NULL,
+  `id_shop` INT UNSIGNED NOT NULL,
+  `id_lang` INT UNSIGNED NOT NULL DEFAULT 0,
+  `submission_hash` CHAR(64) NOT NULL,
+  `public_token_hash` CHAR(64) NULL DEFAULT NULL,
+  `buyer_status` VARCHAR(32) NOT NULL,
+  `non_professional_declaration` TINYINT(1) UNSIGNED NOT NULL DEFAULT 0,
+  `company_detected` TINYINT(1) UNSIGNED NOT NULL DEFAULT 0,
+  `customer_name` VARCHAR(160) NOT NULL DEFAULT '',
+  `customer_email` VARCHAR(255) NOT NULL,
+  `order_reference` VARCHAR(64) NOT NULL DEFAULT '',
+  `statement_payload` LONGTEXT NULL,
+  `processing_status` VARCHAR(32) NOT NULL DEFAULT 'received',
+  `processing_message` VARCHAR(255) NOT NULL DEFAULT '',
+  `confirmation_status` VARCHAR(32) NOT NULL DEFAULT 'pending',
+  `confirmation_attempts` INT UNSIGNED NOT NULL DEFAULT 0,
+  `confirmation_last_error` VARCHAR(255) NOT NULL DEFAULT '',
+  `confirmation_date` DATETIME NULL DEFAULT NULL,
+  `date_add` DATETIME NOT NULL,
+  `date_upd` DATETIME NOT NULL,
+  PRIMARY KEY (`id_cci_withdrawal_submission`),
+  UNIQUE KEY `uniq_cci_withdrawal_submission_hash` (`submission_hash`),
+  UNIQUE KEY `uniq_cci_withdrawal_order_return` (`id_order_return`),
+  KEY `idx_cci_withdrawal_public_token` (`public_token_hash`),
+  KEY `idx_cci_withdrawal_order` (`id_order`),
+  KEY `idx_cci_withdrawal_customer` (`id_customer`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS `ps_cci_withdrawal_lookup_attempt` (
+  `attempt_hash` CHAR(64) NOT NULL,
+  `attempt_count` INT UNSIGNED NOT NULL DEFAULT 0,
+  `window_started_at` DATETIME NOT NULL,
+  `blocked_until` DATETIME NULL DEFAULT NULL,
+  PRIMARY KEY (`attempt_hash`),
+  KEY `idx_cci_withdrawal_blocked_until` (`blocked_until`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

@@ -1,0 +1,10 @@
+Dzień dobry {customer_name},
+
+Jeżeli chcesz odstąpić od umowy dotyczącej zamówienia {order_reference}, skorzystaj z bezpiecznego linku poniżej:
+
+{withdrawal_url}
+
+Link otwiera formularz z podsumowaniem i potwierdzeniem. Samo otwarcie linku nie składa oświadczenia.
+
+{shop_name}
+{shop_email}

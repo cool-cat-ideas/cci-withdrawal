@@ -1,0 +1,473 @@
+.cci-withdrawal-page,
+.cci-withdrawal-page *,
+.cci-withdrawal-page *::before,
+.cci-withdrawal-page *::after {
+  box-sizing: border-box;
+}
+
+.cci-withdrawal-page {
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+  color: #17151f;
+}
+
+.cci-withdrawal-page-header {
+  margin-bottom: 22px;
+}
+
+.cci-withdrawal-page-header .h1 {
+  margin: 0;
+  color: #17151f;
+  font-size: clamp(2rem, 3vw, 3rem);
+  font-weight: 800;
+  line-height: 1.12;
+}
+
+.cci-withdrawal-content {
+  padding: clamp(20px, 3vw, 32px);
+  background: #fff;
+  border: 1px solid #dfe7ef;
+  border-radius: 14px;
+}
+
+.cci-withdrawal-content .alert {
+  margin: 0 0 24px;
+  padding: 18px 20px;
+  border-radius: 12px;
+  line-height: 1.55;
+}
+
+.cci-withdrawal-content .alert-info {
+  color: #174a7c;
+  background: #eef7ff;
+  border: 1px solid #b9daf8;
+}
+
+.cci-withdrawal-content .alert-warning {
+  color: #8a4b12;
+  background: #fff8ef;
+  border: 1px solid #f2c28f;
+}
+
+.cci-withdrawal-content .alert p {
+  margin: 0;
+}
+
+.cci-withdrawal-content .alert p + p {
+  margin-top: 10px;
+}
+
+.cci-withdrawal-form,
+.cci-withdrawal-actions-form {
+  display: grid;
+  width: min(100%, 900px);
+  gap: 20px;
+}
+
+.cci-withdrawal-form .form-group,
+.cci-withdrawal-actions-form .form-group {
+  margin: 0;
+}
+
+.cci-withdrawal-label,
+.cci-withdrawal-scope legend {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: none;
+  margin: 0 0 8px;
+  padding: 0;
+  color: #17151f;
+  font-size: .9375rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: left !important;
+}
+
+.cci-withdrawal-label.required::after,
+.cci-withdrawal-scope legend.required::after {
+  content: " *";
+  color: #e0004d;
+}
+
+.cci-withdrawal-form .form-control,
+.cci-withdrawal-actions-form .form-control {
+  display: block;
+  width: 100%;
+  min-height: 46px;
+  padding: 10px 13px;
+  color: #17151f;
+  background: #fff;
+  border: 1px solid #ccd6e0;
+  border-radius: 8px;
+  box-shadow: none;
+  transition: border-color .16s ease, box-shadow .16s ease;
+}
+
+.cci-withdrawal-form textarea.form-control {
+  min-height: 132px;
+  resize: vertical;
+}
+
+.cci-withdrawal-form .form-control:focus,
+.cci-withdrawal-actions-form .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, .16);
+  outline: none;
+}
+
+.cci-withdrawal-muted {
+  display: block;
+  margin-top: 6px;
+  color: #66758a;
+  font-size: .875rem;
+  line-height: 1.45;
+}
+
+.cci-withdrawal-scope {
+  display: grid;
+  gap: 10px;
+  margin: 2px 0 0;
+  padding: 18px;
+  background: #f8fafc;
+  border: 1px solid #dfe7ef;
+  border-radius: 12px;
+}
+
+.cci-withdrawal-scope legend {
+  float: none;
+  width: auto;
+  margin-bottom: 2px;
+  border: 0;
+  font-size: 1rem;
+}
+
+.cci-withdrawal-form .cci-withdrawal-option,
+.cci-withdrawal-form .cci-withdrawal-declaration {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  max-width: none;
+  gap: 11px;
+  margin: 0;
+  padding: 12px 14px;
+  color: #17151f;
+  background: #fff;
+  border: 1px solid #dfe7ef;
+  border-radius: 10px;
+  line-height: 1.45;
+  text-align: left;
+  cursor: pointer;
+}
+
+.cci-withdrawal-form .cci-withdrawal-option:hover,
+.cci-withdrawal-form .cci-withdrawal-declaration:hover {
+  border-color: #9ec5fe;
+}
+
+.cci-withdrawal-option input[type="radio"],
+.cci-withdrawal-declaration input[type="checkbox"],
+.cci-withdrawal-product-check input[type="checkbox"] {
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+  margin: 2px 0 0;
+  accent-color: #0d6efd;
+}
+
+.cci-withdrawal-form .cci-withdrawal-option-label {
+  display: block;
+  min-width: 0;
+  color: #17151f;
+  font-weight: 700;
+}
+
+.cci-withdrawal-declaration {
+  margin-left: 28px !important;
+  width: calc(100% - 28px) !important;
+}
+
+.cci-withdrawal-review,
+.cci-withdrawal-success,
+.cci-withdrawal-products {
+  width: min(100%, 900px);
+  padding: 22px;
+  background: #fff;
+  border: 1px solid #dfe7ef;
+  border-radius: 14px;
+}
+
+.cci-withdrawal-review,
+.cci-withdrawal-products {
+  margin-bottom: 20px;
+}
+
+.cci-withdrawal-success {
+  background: #f7fff6;
+  border-color: #bfe6b6;
+}
+
+.cci-withdrawal-success-title,
+.cci-withdrawal-review-title,
+.cci-withdrawal-products-title {
+  margin: 0 0 8px;
+  color: #17151f;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.cci-withdrawal-review dl {
+  display: grid;
+  grid-template-columns: minmax(160px, 240px) minmax(0, 1fr);
+  gap: 10px 18px;
+  margin: 18px 0 0;
+}
+
+.cci-withdrawal-review dt {
+  color: #66758a;
+  font-weight: 700;
+}
+
+.cci-withdrawal-review dd {
+  margin: 0;
+}
+
+.cci-withdrawal-product-list {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.cci-withdrawal-product {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+  margin: 0;
+  padding: 14px;
+  color: #17151f;
+  background: #fff;
+  border: 1px solid #dfe7ef;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.cci-withdrawal-product.is-disabled {
+  opacity: .62;
+  cursor: not-allowed;
+}
+
+.cci-withdrawal-product-main,
+.cci-withdrawal-product-side {
+  display: grid;
+  gap: 4px;
+}
+
+.cci-withdrawal-product-main {
+  min-width: 0;
+}
+
+.cci-withdrawal-product-name {
+  color: #17151f;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.cci-withdrawal-product-reason {
+  color: #9a4a12;
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.cci-withdrawal-product-side {
+  align-items: flex-end;
+  justify-items: end;
+  gap: 8px;
+}
+
+.cci-withdrawal-product-price {
+  color: #174a7c;
+  font-weight: 800;
+}
+
+.cci-withdrawal-qty-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cci-withdrawal-qty-field .form-control {
+  width: 74px;
+  min-height: 38px;
+  padding-inline: 8px;
+  text-align: center;
+}
+
+.cci-withdrawal-selected-products {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cci-withdrawal-selected-products li + li {
+  margin-top: 5px;
+}
+
+.cci-withdrawal-privacy-note {
+  margin: 0;
+  padding: 14px;
+  background: #f8fafc;
+  border: 1px solid #dfe7ef;
+  border-radius: 12px;
+  line-height: 1.45;
+}
+
+.cci-withdrawal-product-note {
+  display: block;
+  margin-top: 6px;
+  color: #425466;
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
+.cci-withdrawal-footer-entry {
+  margin-block: 12px;
+}
+
+.cci-withdrawal-entry-link,
+.cci-withdrawal-history-link,
+.cci-withdrawal-account-link {
+  cursor: pointer;
+}
+
+.cci-withdrawal-footer-entry .cci-withdrawal-entry-link,
+.cci-withdrawal-history-link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cci-withdrawal-footer-entry .cci-withdrawal-entry-link:hover,
+.cci-withdrawal-footer-entry .cci-withdrawal-entry-link:focus-visible,
+.cci-withdrawal-history-link:hover,
+.cci-withdrawal-history-link:focus-visible {
+  color: #0b5ed7;
+  text-decoration-thickness: 2px;
+}
+
+.cci-withdrawal-order-entry,
+.cci-withdrawal-detail-fallback {
+  margin-block: 16px;
+  padding: 16px;
+  background: #f8fafc;
+  border: 1px solid #dfe7ef;
+  border-radius: 12px;
+}
+
+.cci-withdrawal-order-entry-title {
+  margin: 0 0 10px;
+  color: #17151f;
+  font-weight: 700;
+}
+
+.cci-withdrawal-history-link {
+  display: block;
+  margin-top: 8px;
+}
+
+.cci-withdrawal-account-link:focus-visible,
+.cci-withdrawal-entry-link:focus-visible {
+  outline: 3px solid rgba(13, 110, 253, 0.35);
+  outline-offset: 3px;
+}
+
+.cci-withdrawal-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+  margin-top: 4px;
+  padding-top: 20px;
+  border-top: 1px solid #e7edf3;
+  clear: both;
+}
+
+.cci-withdrawal-actions .btn {
+  width: auto;
+  min-height: 42px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.cci-withdrawal-actions .btn-primary {
+  color: #fff;
+  background: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.cci-withdrawal-actions .btn-primary:hover,
+.cci-withdrawal-actions .btn-primary:focus {
+  color: #fff;
+  background: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+.cci-withdrawal-actions .btn-default {
+  color: #17151f;
+  background: #fff;
+  border-color: #ccd6e0;
+}
+
+.cci-withdrawal-actions .btn-default:hover,
+.cci-withdrawal-actions .btn-default:focus {
+  color: #17151f;
+  background: #f1f5f9;
+  border-color: #aeb9c5;
+}
+
+@media (max-width: 767px) {
+  .cci-withdrawal-page {
+    padding-inline: 12px;
+  }
+
+  .cci-withdrawal-content {
+    padding: 18px;
+    border-radius: 12px;
+  }
+
+  .cci-withdrawal-scope,
+  .cci-withdrawal-review,
+  .cci-withdrawal-success,
+  .cci-withdrawal-products {
+    padding: 16px;
+  }
+
+  .cci-withdrawal-declaration {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .cci-withdrawal-review dl {
+    grid-template-columns: 1fr;
+  }
+
+  .cci-withdrawal-product {
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: flex-start;
+  }
+
+  .cci-withdrawal-product-side {
+    grid-column: 2;
+    justify-items: start;
+  }
+
+  .cci-withdrawal-actions .btn {
+    width: 100%;
+  }
+}

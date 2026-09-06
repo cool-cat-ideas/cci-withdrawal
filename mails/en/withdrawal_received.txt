@@ -1,0 +1,22 @@
+Hello {customer_name},
+
+We confirm receipt of your withdrawal statement.
+
+Statement reference: {return_reference}
+Order reference: {order_reference}
+Submission date and time: {submitted_at}
+Purchase capacity: {buyer_status}
+Scope: {withdrawal_scope}
+
+Products covered by the statement:
+{selected_products_txt}
+
+Additional information:
+{message_txt}
+
+{processing_note}
+
+We will contact you if we need any additional information.
+
+{shop_name}
+{shop_email}

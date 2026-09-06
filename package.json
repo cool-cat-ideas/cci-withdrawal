@@ -1,0 +1,7 @@
+{
+  "name": "cci-withdrawal",
+  "private": true,
+  "scripts": {
+    "package:presta": "node ../../scripts/build-presta-module-release.mjs products/cci_withdrawal"
+  }
+}

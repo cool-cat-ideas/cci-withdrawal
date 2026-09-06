@@ -1,0 +1,22 @@
+Dzień dobry {customer_name},
+
+potwierdzamy otrzymanie Twojego oświadczenia o odstąpieniu od umowy.
+
+Numer oświadczenia: {return_reference}
+Numer zamówienia: {order_reference}
+Data i godzina wysłania: {submitted_at}
+Charakter zakupu: {buyer_status}
+Zakres: {withdrawal_scope}
+
+Produkty objęte oświadczeniem:
+{selected_products_txt}
+
+Dodatkowe informacje:
+{message_txt}
+
+{processing_note}
+
+Jeżeli będziemy potrzebowali dodatkowych informacji, skontaktujemy się z Tobą.
+
+{shop_name}
+{shop_email}

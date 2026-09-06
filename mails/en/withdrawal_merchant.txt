@@ -1,0 +1,19 @@
+A new withdrawal statement has been received.
+
+Statement reference: {return_reference}
+Order reference: {order_reference}
+Submission date and time: {submitted_at}
+Customer: {customer_name}
+Email: {customer_email}
+Purchase capacity: {buyer_status}
+Scope: {withdrawal_scope}
+
+Products:
+{selected_products_txt}
+
+Additional information:
+{message_txt}
+
+{processing_note}
+
+The statement is available in Cool Cat Ideas > CCI Withdrawal Form > Submitted withdrawals.

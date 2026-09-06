@@ -1,0 +1,511 @@
+.cci-withdrawal-admin-shell,
+.cci-withdrawal-admin-shell *,
+.cci-withdrawal-admin-shell *::before,
+.cci-withdrawal-admin-shell *::after {
+  box-sizing: border-box;
+}
+
+.cci-withdrawal-admin-shell {
+  --cci-admin-radius: 6px;
+  --cci-page-bg: #f4f6f8;
+  --cci-surface: #fff;
+  --cci-surface-soft: #f8fafc;
+  --cci-line: #dfe5ec;
+  --cci-line-soft: #e6eaf0;
+  --cci-text: #111827;
+  --cci-muted: #526173;
+  --cci-brand: #6041df;
+  --cci-brand-hover: #4f35b5;
+  --cci-brand-soft: #f3f0ff;
+  --cci-brand-border: #c9c0ff;
+  --cci-action: #58c322;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  gap: 24px;
+  margin-top: 16px;
+  background: var(--cci-page-bg);
+  color: var(--cci-text);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.cci-withdrawal-admin-shell h2,
+.cci-withdrawal-admin-shell h3,
+.cci-withdrawal-admin-shell h4 {
+  margin: 0;
+}
+
+.cci-withdrawal-admin-shell .cci-admin-main {
+  min-width: 0;
+}
+
+.cci-withdrawal-admin-shell .cci-card,
+.cci-withdrawal-admin-shell .cci-brand-card {
+  overflow: hidden;
+  border: 1px solid var(--cci-line);
+  border-radius: var(--cci-admin-radius);
+  background: var(--cci-surface);
+}
+
+.cci-withdrawal-admin-shell .cci-card {
+  margin-bottom: 18px;
+}
+
+.cci-withdrawal-admin-shell .cci-card-inner {
+  padding: 22px 24px;
+}
+
+.cci-withdrawal-admin-shell .cci-hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 184px;
+  border: 1px solid var(--cci-line);
+  border-radius: var(--cci-admin-radius);
+  background: var(--cci-surface);
+}
+
+.cci-withdrawal-admin-shell .cci-hero::after {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: 24px;
+  width: 222px;
+  aspect-ratio: 300 / 216;
+  transform: translateY(-50%);
+  background: var(--cci-hero-image, none) no-repeat right center / 100% 100%;
+  content: "";
+  pointer-events: none;
+}
+
+.cci-withdrawal-admin-shell .cci-hero .cci-card-inner {
+  position: relative;
+  z-index: 2;
+  display: block;
+  min-height: 184px;
+  padding: 22px 270px 22px 24px;
+}
+
+.cci-withdrawal-admin-shell .cci-hero-content {
+  display: block;
+  max-width: 680px;
+}
+
+.cci-withdrawal-admin-shell .cci-title-row,
+.cci-withdrawal-admin-shell .cci-hero-actions,
+.cci-withdrawal-admin-shell .cci-section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cci-withdrawal-admin-shell .cci-title {
+  display: block;
+  margin: 0;
+  color: #1f1a4a;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.cci-withdrawal-admin-shell .cci-version {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: var(--cci-admin-radius);
+  background: var(--cci-brand-soft);
+  color: var(--cci-brand);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.cci-withdrawal-admin-shell .cci-subtitle {
+  margin: 8px 0 0;
+  color: var(--cci-muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.cci-withdrawal-admin-shell .cci-hero-actions {
+  margin-top: 18px;
+}
+
+.cci-withdrawal-admin-shell .cci-btn-primary,
+.cci-withdrawal-admin-shell .cci-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  border-radius: var(--cci-admin-radius);
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.cci-withdrawal-admin-shell .cci-btn-primary {
+  background: var(--cci-brand);
+  color: #fff !important;
+}
+
+.cci-withdrawal-admin-shell .cci-btn-primary:hover,
+.cci-withdrawal-admin-shell .cci-btn-primary:focus {
+  background: var(--cci-brand-hover);
+  color: #fff !important;
+}
+
+.cci-withdrawal-admin-shell .cci-btn-secondary {
+  border-color: var(--cci-brand-border);
+  background: #f8f6ff;
+  color: #41318f !important;
+}
+
+.cci-withdrawal-admin-shell .cci-btn-secondary:hover,
+.cci-withdrawal-admin-shell .cci-btn-secondary:focus {
+  border-color: var(--cci-brand);
+  background: #f3f0ff;
+}
+
+.cci-withdrawal-admin-shell .material-icons {
+  font-size: 19px;
+}
+
+.cci-withdrawal-admin-shell .cci-section-title h3 {
+  color: #252047;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.cci-withdrawal-admin-shell .cci-form-wrapper {
+  margin-top: 14px;
+}
+
+.cci-withdrawal-admin-shell .cci-native-settings-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 16px;
+  padding: 14px 16px;
+  border: 1px solid var(--cci-line);
+  border-radius: var(--cci-admin-radius);
+  background: var(--cci-surface-soft);
+}
+
+.cci-withdrawal-admin-shell .cci-native-settings-copy {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.cci-withdrawal-admin-shell .cci-native-settings-copy strong {
+  color: #252047;
+  font-size: 14px;
+}
+
+.cci-withdrawal-admin-shell .cci-native-settings-copy span {
+  color: var(--cci-muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.cci-withdrawal-admin-shell .cci-native-admin-content {
+  margin-top: 16px;
+}
+
+.cci-withdrawal-admin-shell .cci-native-admin-content > .panel {
+  overflow: hidden;
+  margin: 0 0 18px;
+  border: 1px solid var(--cci-line);
+  border-radius: var(--cci-admin-radius);
+  box-shadow: none;
+}
+
+.cci-withdrawal-admin-shell .cci-native-admin-content > .panel:last-child {
+  margin-bottom: 0;
+}
+
+.cci-withdrawal-admin-shell .cci-native-admin-content .panel-heading {
+  border-bottom-color: var(--cci-line);
+  background: #fff;
+  color: #252047;
+  font-weight: 700;
+}
+
+.cci-withdrawal-admin-shell .cci-native-admin-content .table {
+  margin-bottom: 0;
+}
+
+.cci-withdrawal-admin-shell .cci-native-admin-content .table thead th {
+  border-bottom-color: var(--cci-line);
+  background: var(--cci-surface-soft);
+}
+
+.cci-withdrawal-admin-shell .cci-native-admin-content .table tbody tr:hover td {
+  background: #f8f6ff;
+}
+
+.cci-withdrawal-admin-shell .cci-native-admin-content .list-empty {
+  border: 0;
+  background: var(--cci-surface-soft);
+}
+
+.cci-withdrawal-admin-shell .cci-withdrawal-submission-detail {
+  padding: 22px;
+}
+
+.cci-withdrawal-admin-shell .cci-withdrawal-submission-detail .panel-heading {
+  margin: -22px -22px 22px;
+}
+
+.cci-withdrawal-admin-shell .cci-withdrawal-submission-facts {
+  display: grid;
+  grid-template-columns: minmax(150px, 220px) minmax(0, 1fr);
+  gap: 10px 18px;
+  margin: 0 0 24px;
+}
+
+.cci-withdrawal-admin-shell .cci-withdrawal-submission-facts dt {
+  color: #5f6578;
+  font-weight: 700;
+}
+
+.cci-withdrawal-admin-shell .cci-withdrawal-submission-facts dd {
+  min-width: 0;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.cci-withdrawal-admin-shell .cci-withdrawal-statement-snapshot {
+  margin: 0 0 20px;
+  padding: 16px;
+  color: #252047;
+  background: var(--cci-surface-soft);
+  border: 1px solid var(--cci-line);
+  border-radius: var(--cci-admin-radius);
+  font: inherit;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.cci-withdrawal-admin-shell .cci-form-wrapper .panel.cci-helper-form-content {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.cci-withdrawal-admin-shell .cci-helper-form-content > .form-wrapper {
+  padding: 0;
+}
+
+.cci-withdrawal-admin-shell .cci-helper-form-content > .panel-footer {
+  margin: 18px -24px -22px;
+  border-top: 1px solid var(--cci-line);
+  border-radius: 0;
+  background: var(--cci-surface-soft);
+}
+
+.cci-withdrawal-admin-shell .cci-brand-panel {
+  position: sticky;
+  top: 78px;
+  align-self: start;
+}
+
+.cci-withdrawal-admin-shell .cci-brand-card {
+  padding: 22px;
+}
+
+.cci-withdrawal-admin-shell .cci-brand-title {
+  margin: 0 0 14px;
+  color: #2c2261;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.cci-withdrawal-admin-shell .cci-brand-logos {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  align-items: center;
+  gap: 18px;
+  margin: 2px 0 20px;
+}
+
+.cci-withdrawal-admin-shell .cci-brand-logos img {
+  display: block;
+  max-width: 100%;
+  max-height: 64px;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.cci-withdrawal-admin-shell .cci-brand-text {
+  margin: 0 0 18px;
+  color: #4d5368;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.cci-withdrawal-admin-shell .cci-brand-heading {
+  margin: 0 0 12px;
+  color: #322765;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.cci-withdrawal-admin-shell .cci-check-list {
+  display: grid;
+  gap: 10px;
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.cci-withdrawal-admin-shell .cci-check-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 0;
+  color: #4d5368;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.cci-withdrawal-admin-shell .cci-check-list li::before {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+  border: 1px solid #a7e8bd;
+  border-radius: 999px;
+  background: #cef3da;
+  flex: 0 0 auto;
+  color: #08783d;
+  content: "\2713";
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.cci-withdrawal-admin-shell .cci-check-list li span {
+  min-width: 0;
+}
+
+.cci-withdrawal-admin-shell .cci-check-list strong {
+  white-space: nowrap;
+}
+
+.cci-withdrawal-admin-shell .cci-brand-card .cci-btn-primary {
+  width: 100%;
+  min-height: 42px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+@media (max-width: 1400px) {
+  .cci-withdrawal-admin-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .cci-withdrawal-admin-shell .cci-brand-panel {
+    position: static;
+  }
+
+  .cci-withdrawal-admin-shell .cci-hero::after {
+    right: 10px;
+    width: 208px;
+    opacity: 0.18;
+  }
+
+  .cci-withdrawal-admin-shell .cci-hero .cci-card-inner {
+    min-height: 184px;
+    padding: 22px 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cci-withdrawal-admin-shell {
+    gap: 16px;
+    margin-top: 10px;
+  }
+
+  .cci-withdrawal-admin-shell .cci-card-inner,
+  .cci-withdrawal-admin-shell .cci-brand-card {
+    padding: 16px;
+  }
+
+  .cci-withdrawal-admin-shell .cci-hero,
+  .cci-withdrawal-admin-shell .cci-hero .cci-card-inner {
+    min-height: 136px;
+  }
+
+  .cci-withdrawal-admin-shell .cci-hero .cci-card-inner {
+    padding: 16px;
+  }
+
+  .cci-withdrawal-admin-shell .cci-title {
+    font-size: 23px;
+  }
+
+  .cci-withdrawal-admin-shell .cci-hero::after {
+    width: 189px;
+  }
+
+  .cci-withdrawal-admin-shell .cci-helper-form-content > .panel-footer {
+    margin: 18px -16px -16px;
+  }
+
+  .cci-withdrawal-admin-shell .cci-hero-actions,
+  .cci-withdrawal-admin-shell .cci-hero-actions a,
+  .cci-withdrawal-admin-shell .cci-native-settings-note,
+  .cci-withdrawal-admin-shell .cci-native-settings-note a {
+    width: 100%;
+  }
+
+  .cci-withdrawal-admin-shell .cci-native-settings-note {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .cci-withdrawal-admin-shell .cci-withdrawal-submission-facts {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .cci-withdrawal-admin-shell .cci-withdrawal-submission-facts dd + dt {
+    margin-top: 10px;
+  }
+}
+
+/* Native form actions share the product brand and keyboard focus. */
+.cci-withdrawal-admin-shell :is(a, button, input[type="submit"], [role="button"]) {
+  cursor: pointer;
+}
+.cci-withdrawal-admin-shell :is(a, button, input, select, textarea):focus-visible {
+  outline: 2px solid var(--cci-brand);
+  outline-offset: 2px;
+}
+.cci-withdrawal-admin-shell :is(button, input)[type="submit"] {
+  border-radius: var(--cci-admin-radius);
+  border-color: var(--cci-brand);
+  background: var(--cci-brand);
+  color: #fff;
+  box-shadow: none;
+}
+.cci-withdrawal-admin-shell :is(button, input)[type="submit"]:is(:hover, :focus-visible) {
+  border-color: var(--cci-brand-hover);
+  background: var(--cci-brand-hover);
+}
+.cci-withdrawal-admin-shell :is(button, input):disabled {
+  cursor: not-allowed;
+}
