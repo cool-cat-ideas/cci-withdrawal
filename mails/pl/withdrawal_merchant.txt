@@ -1,0 +1,19 @@
+Otrzymano nowe oświadczenie o odstąpieniu od umowy.
+
+Numer oświadczenia: {return_reference}
+Numer zamówienia: {order_reference}
+Data i godzina wysłania: {submitted_at}
+Klient: {customer_name}
+E-mail: {customer_email}
+Charakter zakupu: {buyer_status}
+Zakres: {withdrawal_scope}
+
+Produkty:
+{selected_products_txt}
+
+Dodatkowe informacje:
+{message_txt}
+
+{processing_note}
+
+Oświadczenie znajdziesz w Cool Cat Ideas > CCI Withdrawal Form > Przesłane odstąpienia.

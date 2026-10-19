@@ -1,0 +1,14 @@
+{
+  "name": "cci-withdrawal",
+  "private": true,
+  "scripts": {
+    "package:presta": "node scripts/build-release.mjs",
+    "format": "node scripts/quality/format.mjs",
+    "format:check": "node scripts/quality/format.mjs --check"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10",
+    "esbuild": "0.28.2"
+  },
+  "version": "1.0.0"
+}

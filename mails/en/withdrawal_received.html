@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <body>
+    <p>Hello {customer_name},</p>
+    <p>We confirm receipt of your <strong>withdrawal statement</strong>.</p>
+    <p>
+      Statement reference: <strong>{return_reference}</strong><br>
+      Order reference: <strong>{order_reference}</strong><br>
+      Submission date and time: {submitted_at}<br>
+      Purchase capacity: {buyer_status}<br>
+      Scope: {withdrawal_scope}
+    </p>
+    <p><strong>Products covered by the statement</strong></p>
+    <p>{selected_products}</p>
+    <p><strong>Additional information</strong></p>
+    <p>{message}</p>
+    <p>{processing_note}</p>
+    <p>We will contact you if we need any additional information.</p>
+    <p>{shop_name}<br>{shop_email}</p>
+  </body>
+</html>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="Modules.Cciwithdrawal.Shop.xlf" source-language="en" target-language="pl" datatype="plaintext">
+    <body>
+      <trans-unit id="e3b50d8a88e7f084ddac41eb534db8f3" approved="yes">
+        <source>Withdraw from contract</source>
+        <target state="final">Odstąp od umowy</target>
+        <note>File: modules/cci_withdrawal/controllers/front/form.php</note>
+      </trans-unit>
+      <trans-unit id="44268eea143433bad92e213dde98645d" approved="yes">
+        <source>Your withdrawal request has been sent. We have also sent a confirmation to your email address.</source>
+        <target state="final">Oświadczenie zostało wysłane. Potwierdzenie wysłaliśmy również na Twój adres e-mail.</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="2f21a45a71fd3a73c275af8c470fbaf5" approved="yes">
+        <source>Use this form if you want to withdraw from an online order. It is available for registered customers and guest orders.</source>
+        <target state="final">Użyj tego formularza, jeśli chcesz odstąpić od umowy zawartej online. Formularz jest dostępny dla zalogowanych klientów i zamówień złożonych jako gość.</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="72ce8cc05a0575bf6941f8e1c2d6fd1b" approved="yes">
+        <source>Withdrawal scope</source>
+        <target state="final">Zakres odstąpienia</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="6a2a2beb1393138d2fb8dcc2b9bf6979" approved="yes">
+        <source>Review your withdrawal request</source>
+        <target state="final">Sprawdź oświadczenie o odstąpieniu</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="45bd8a307399e52997f021199f405b70" approved="yes">
+        <source>Check the details below. If they are correct, confirm the withdrawal request.</source>
+        <target state="final">Sprawdź poniższe dane. Jeśli są poprawne, potwierdź odstąpienie od umowy.</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="bfb5d2f2774104b4fac0113941b97d80" approved="yes">
+        <source>Confirm withdrawal</source>
+        <target state="final">Potwierdź odstąpienie</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="92d1d735a21787bf5cf9be65a3682bb3" approved="yes">
+        <source>Edit details</source>
+        <target state="final">Popraw dane</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="e9341d39a544fed6e5cdc2824d3c445c" approved="yes">
+        <source>Whole order</source>
+        <target state="final">Całe zamówienie</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="0f77780ce27d37016e5761319d6f6287" approved="yes">
+        <source>Part of the order</source>
+        <target state="final">Część zamówienia</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="33a3ded5f2a48b64f0d5e787127518f5" approved="yes">
+        <source>If you withdraw from part of the order, enter the products you want to return.</source>
+        <target state="final">Jeśli odstępujesz od części zamówienia, wpisz produkty, które chcesz zwrócić.</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="f11b368cddfe37c47af9b9d91c6ba4f0" approved="yes">
+        <source>Full name</source>
+        <target state="final">Imię i nazwisko</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d" approved="yes">
+        <source>Email</source>
+        <target state="final">Adres e-mail</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="5d4710f9a8250b13164a82c94d5b00d1" approved="yes">
+        <source>Order reference</source>
+        <target state="final">Numer zamówienia</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="0f68b904e33d9ac04605aecc958bcf52" approved="yes">
+        <source>Additional information</source>
+        <target state="final">Dodatkowe informacje</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="465389a11478bb5b9c628c44bbd91009" approved="yes">
+        <source>Products selected for withdrawal</source>
+        <target state="final">Produkty wybrane do odstąpienia</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="7f36b7eac5872d757b315ed431c4ad92" approved="yes">
+        <source>Product selection</source>
+        <target state="final">Wybór produktów</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="6223546c72d68b67223fcfcf4328565c" approved="yes">
+        <source>Select products you want to withdraw from this order.</source>
+        <target state="final">Wybierz produkty z zamówienia, których dotyczy odstąpienie.</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="98eda5f5f51682e199530381aff86542" approved="yes">
+        <source>Ordered quantity</source>
+        <target state="final">Zamówiona ilość</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="69f21457c4b73bd00f19b748f560d980" approved="yes">
+        <source>Already returned</source>
+        <target state="final">Już zwrócono</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="694e8d1f2ee056f98ee488bdc4982d73" approved="yes">
+        <source>Quantity</source>
+        <target state="final">Ilość</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="261f99b386b0ba2e1cf57b7d34edcdb3" approved="yes">
+        <source>Review request</source>
+        <target state="final">Sprawdź oświadczenie</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="625c7c63b527a42c46944dcdd286fafd" approved="yes">
+        <source>Tell us which products you want to withdraw from.</source>
+        <target state="final">Wpisz, których produktów dotyczy częściowe odstąpienie.</target>
+        <note>File: modules/cci_withdrawal/controllers/front/form.php</note>
+      </trans-unit>
+      <trans-unit id="2cc69a83473d7860a40b55d7914ba38b" approved="yes">
+        <source>Select at least one product from the order.</source>
+        <target state="final">Wybierz co najmniej jeden produkt z zamówienia.</target>
+        <note>File: modules/cci_withdrawal/controllers/front/form.php</note>
+      </trans-unit>
+      <trans-unit id="d788e87ba3d312d71afec04094c69908" approved="yes">
+        <source>I confirm that I want to submit a withdrawal request for this order.</source>
+        <target state="final">Potwierdzam, że chcę złożyć oświadczenie o odstąpieniu od umowy dla tego zamówienia.</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="eb6859e19d9f118bf4cc0600dc664626" approved="yes">
+        <source>Submit withdrawal request</source>
+        <target state="final">Wyślij oświadczenie</target>
+        <note>File: modules/cci_withdrawal/views/templates/front/form.tpl</note>
+      </trans-unit>
+      <trans-unit id="6319045ec8f064a49ad6f44241a23938" approved="yes">
+        <source>Please enter your full name.</source>
+        <target state="final">Podaj imię i nazwisko.</target>
+        <note>File: modules/cci_withdrawal/controllers/front/form.php</note>
+      </trans-unit>
+      <trans-unit id="0b625bf0e321d48e47c99db9ca93540d" approved="yes">
+        <source>Please enter your order reference.</source>
+        <target state="final">Podaj numer zamówienia.</target>
+        <note>File: modules/cci_withdrawal/controllers/front/form.php</note>
+      </trans-unit>
+      <trans-unit id="3578ad03d0da5537f0bff8ab4bd314d7" approved="yes">
+        <source>Please choose whether you withdraw from the whole order or only part of it.</source>
+        <target state="final">Wybierz, czy odstępujesz od całego zamówienia, czy tylko od jego części.</target>
+        <note>File: modules/cci_withdrawal/controllers/front/form.php</note>
+      </trans-unit>
+      <trans-unit id="3bae4968255a8960dfcca08a75333860" approved="yes">
+        <source>Please confirm that you want to submit the withdrawal request.</source>
+        <target state="final">Potwierdź wysłanie oświadczenia o odstąpieniu od umowy.</target>
+        <note>File: modules/cci_withdrawal/controllers/front/form.php</note>
+      </trans-unit>
+      <trans-unit id="2607fa37bff908a5853b796ad5b960c0" approved="yes">
+        <source>We could not send your withdrawal request. Please try again or contact us directly.</source>
+        <target state="final">Nie udało się wysłać oświadczenia. Spróbuj ponownie albo skontaktuj się z nami bezpośrednio.</target>
+        <note>File: modules/cci_withdrawal/controllers/front/form.php</note>
+      </trans-unit>
+      <trans-unit id="9846919596ecaa148c0cb7bd4c4b34de" approved="yes">
+        <source>We received your withdrawal request</source>
+        <target state="final">Otrzymaliśmy Twoje oświadczenie o odstąpieniu od umowy</target>
+        <note>File: modules/cci_withdrawal/controllers/front/form.php</note>
+      </trans-unit>
+      <trans-unit id="fd23370423f694c027e6d36ad90128c7" approved="yes">
+        <source>New withdrawal request</source>
+        <target state="final">Nowe oświadczenie o odstąpieniu od umowy</target>
+        <note>File: modules/cci_withdrawal/controllers/front/form.php</note>
+      </trans-unit>
+      <trans-unit id="39771e7f2713ecf5aa2de88ec13ea698" approved="yes">
+        <source>Your withdrawal statement has been recorded</source>
+        <target state="final">Twoje oświadczenie o odstąpieniu zostało zapisane</target>
+      </trans-unit>
+      <trans-unit id="82280f51738817f1271213f003ba7f65" approved="yes">
+        <source>We created a merchandise return in PrestaShop and sent the content, date and time of the statement to your email address.</source>
+        <target state="final">Utworzyliśmy zwrot w PrestaShop, a treść oświadczenia wraz z datą i godziną wysłaliśmy na Twój adres e-mail.</target>
+      </trans-unit>
+      <trans-unit id="87bb408d979d5afbd9de5a032eb1e146" approved="yes">
+        <source>The statement was recorded, but the email confirmation could not be sent. Contact us and keep this page as confirmation of submission.</source>
+        <target state="final">Oświadczenie zostało zapisane, ale nie udało się wysłać potwierdzenia e-mail. Skontaktuj się z nami i zachowaj tę stronę jako potwierdzenie wysłania.</target>
+      </trans-unit>
+      <trans-unit id="a3f1b363589fa21551ccc0c984e9c3eb" approved="yes">
+        <source>View merchandise returns</source>
+        <target state="final">Zobacz zwroty produktów</target>
+      </trans-unit>
+      <trans-unit id="a35795cc28a2bc8547f1935373f063e9" approved="yes">
+        <source>Use this function to submit an online withdrawal statement for a customer or guest order. The configured return period is %days% days from delivery.</source>
+        <target state="final">Użyj tej funkcji, aby złożyć online oświadczenie dotyczące zamówienia klienta lub gościa. Ustawiony termin zwrotu wynosi %days% dni od dostarczenia.</target>
+      </trans-unit>
+      <trans-unit id="c4b925dcee583aa3f700e50549af672a" approved="yes">
+        <source>The statutory right applies to consumers and, in specific cases, to sole traders when the purchase is not of a professional nature. It does not apply to companies, professional business purchases or goods made to an individual specification.</source>
+        <target state="final">Ustawowe prawo przysługuje konsumentom oraz — w określonych przypadkach — osobom prowadzącym jednoosobową działalność, gdy zakup nie miał charakteru zawodowego. Nie dotyczy spółek, zakupów firmowych o charakterze zawodowym ani produktów wykonanych według indywidualnej specyfikacji.</target>
+      </trans-unit>
+      <trans-unit id="3a50657ad567778f29d70c3d0aa4a7a2" approved="yes">
+        <source>Review your withdrawal statement</source>
+        <target state="final">Sprawdź oświadczenie o odstąpieniu</target>
+      </trans-unit>
+      <trans-unit id="15d454158ea6cbc07789d3986a2c8330" approved="yes">
+        <source>Check the content below. Selecting “Confirm withdrawal” submits an unequivocal withdrawal statement.</source>
+        <target state="final">Sprawdź poniższą treść. Wybranie „Potwierdź odstąpienie” spowoduje złożenie jednoznacznego oświadczenia o odstąpieniu od umowy.</target>
+      </trans-unit>
+      <trans-unit id="cf2abf9054acb6c023b104d18ad4b3a3" approved="yes">
+        <source>Purchase capacity</source>
+        <target state="final">Charakter zakupu</target>
+      </trans-unit>
+      <trans-unit id="d0ecd6c5e7480a31b9f383583102cc95" approved="yes">
+        <source>Consumer purchase outside business activity</source>
+        <target state="final">Zakup konsumencki, niezwiązany z działalnością gospodarczą</target>
+      </trans-unit>
+      <trans-unit id="ed7bd5d3942297fbc65f381525ccc35a" approved="yes">
+        <source>Sole trader — purchase without a professional nature</source>
+        <target state="final">Jednoosobowa działalność — zakup bez charakteru zawodowego</target>
+      </trans-unit>
+      <trans-unit id="96a8ee39c19c8b8b97160c2f986f2542" approved="yes">
+        <source>Company or professional business purchase</source>
+        <target state="final">Spółka lub zakup firmowy o charakterze zawodowym</target>
+      </trans-unit>
+      <trans-unit id="91338547ddee5919ce5cf97c534a5a96" approved="yes">
+        <source>All eligible products from the order</source>
+        <target state="final">Wszystkie produkty z zamówienia objęte prawem odstąpienia</target>
+      </trans-unit>
+      <trans-unit id="b0d8d0d2960c2841a4317cd12237859c" approved="yes">
+        <source>Sole trader declaration</source>
+        <target state="final">Oświadczenie osoby prowadzącej jednoosobową działalność</target>
+      </trans-unit>
+      <trans-unit id="e286338dfebbb0a2073bb4227c45756d" approved="yes">
+        <source>The purchase was not of a professional nature for my sole proprietorship.</source>
+        <target state="final">Zakup nie miał dla mojej jednoosobowej działalności charakteru zawodowego.</target>
+      </trans-unit>
+      <trans-unit id="502ade9100ae3c7f28f6e83f2f056eb6" approved="yes">
+        <source>Products excluded by law or store configuration are not included in this statement.</source>
+        <target state="final">Produkty wyłączone na podstawie przepisów lub konfiguracji sklepu nie zostały objęte tym oświadczeniem.</target>
+      </trans-unit>
+      <trans-unit id="8f8a4348cd537ba5f0bf813e66436dc5" approved="yes">
+        <source>Select products</source>
+        <target state="final">Wybierz produkty</target>
+      </trans-unit>
+      <trans-unit id="a2bd7d5d04e9b3c538b234522386b6f6" approved="yes">
+        <source>Choose the products and quantities covered by the withdrawal statement.</source>
+        <target state="final">Wybierz produkty i ilości, których dotyczy oświadczenie o odstąpieniu.</target>
+      </trans-unit>
+      <trans-unit id="1e2ee47993f635e964e127de4ab6191f" approved="yes">
+        <source>Made to an individual specification — statutory withdrawal is not available.</source>
+        <target state="final">Produkt wykonany według indywidualnej specyfikacji — ustawowe prawo odstąpienia nie przysługuje.</target>
+      </trans-unit>
+      <trans-unit id="08f83030fc8ed340b16436c76f9d0920" approved="yes">
+        <source>This product is excluded from statutory withdrawal.</source>
+        <target state="final">Ten produkt jest wyłączony z ustawowego prawa odstąpienia.</target>
+      </trans-unit>
+      <trans-unit id="c859abb6c93c914325e888d008f82fff" approved="yes">
+        <source>This digital product cannot be returned using the merchandise return procedure.</source>
+        <target state="final">Tego produktu cyfrowego nie można zwrócić w procedurze zwrotu towaru.</target>
+      </trans-unit>
+      <trans-unit id="1728e144aa8312b541dccdd0c760bc0b" approved="yes">
+        <source>The full available quantity has already been returned or refunded.</source>
+        <target state="final">Cała dostępna ilość została już zwrócona lub zrefundowana.</target>
+      </trans-unit>
+      <trans-unit id="9a241c442c379cd3d3157c195e00b47d" approved="yes">
+        <source>Review statement</source>
+        <target state="final">Sprawdź oświadczenie</target>
+      </trans-unit>
+      <trans-unit id="fb2ee6b11d0662897fdd7d994096fcc0" approved="yes">
+        <source>Enter the email address used for the order. It is also where we will send the confirmation.</source>
+        <target state="final">Podaj adres e-mail użyty w zamówieniu. Na ten adres wyślemy również potwierdzenie.</target>
+      </trans-unit>
+      <trans-unit id="fd5582ed19dc02a4424565fd06dbbc5b" approved="yes">
+        <source>This applies only to a natural person running a sole proprietorship when the agreement was not professional in nature.</source>
+        <target state="final">Dotyczy wyłącznie osoby fizycznej prowadzącej jednoosobową działalność, gdy umowa nie miała dla niej charakteru zawodowego.</target>
+      </trans-unit>
+      <trans-unit id="298ec1a0f9dce79877b08ef57fb2c09a" approved="yes">
+        <source>I declare that this purchase was not of a professional nature for my sole proprietorship.</source>
+        <target state="final">Oświadczam, że zakup nie miał dla mojej jednoosobowej działalności charakteru zawodowego.</target>
+      </trans-unit>
+      <trans-unit id="a35b629d882b444e9484c06b94b58fbe" approved="yes">
+        <source>The statutory consumer withdrawal procedure does not apply. You can still contact us about a voluntary return.</source>
+        <target state="final">Ustawowa konsumencka procedura odstąpienia nie ma zastosowania. Możesz jednak skontaktować się z nami w sprawie dobrowolnego zwrotu.</target>
+      </trans-unit>
+      <trans-unit id="6e88599b4cc8ff69b8b3302d9d2ad224" approved="yes">
+        <source>Only selected products and quantities</source>
+        <target state="final">Tylko wybrane produkty i ilości</target>
+      </trans-unit>
+      <trans-unit id="ff3dfe1269aa40a0999c31388b97fb43" approved="yes">
+        <source>We process these details to identify the order and handle your withdrawal statement. A separate marketing consent is not required.</source>
+        <target state="final">Przetwarzamy te dane, aby zidentyfikować zamówienie i obsłużyć oświadczenie o odstąpieniu. Osobna zgoda marketingowa nie jest wymagana.</target>
+      </trans-unit>
+      <trans-unit id="2ddfc787c0d0fa5b0933f8d7e7b46e8b" approved="yes">
+        <source>Continue to verification</source>
+        <target state="final">Przejdź do weryfikacji</target>
+      </trans-unit>
+      <trans-unit id="741050c400b7ded6a3c51eff2f0cea95" approved="yes">
+        <source>We could not match the order reference and email address. Check the details and try again.</source>
+        <target state="final">Nie znaleźliśmy zamówienia pasującego do podanego numeru i adresu e-mail. Sprawdź dane i spróbuj ponownie.</target>
+      </trans-unit>
+      <trans-unit id="dc8d1206fd7e97b3158be84bf570f849" approved="yes">
+        <source>This order has no products available for withdrawal. Contact us if you believe this is incorrect.</source>
+        <target state="final">W tym zamówieniu nie ma produktów dostępnych do odstąpienia. Skontaktuj się z nami, jeśli uważasz, że to błąd.</target>
+      </trans-unit>
+      <trans-unit id="09d5a5f7e3f43a523cd4585289ad6531" approved="yes">
+        <source>We could not record your withdrawal statement. Please try again or contact us directly.</source>
+        <target state="final">Nie udało się zapisać oświadczenia o odstąpieniu. Spróbuj ponownie lub skontaktuj się z nami bezpośrednio.</target>
+      </trans-unit>
+      <trans-unit id="a3b95ebf8876267c79670e67fe7fc138" approved="yes">
+        <source>Please select the capacity in which you made the purchase.</source>
+        <target state="final">Wybierz charakter, w jakim dokonano zakupu.</target>
+      </trans-unit>
+      <trans-unit id="852173972c8374fdfb9282cc40da23ea" approved="yes">
+        <source>The statutory consumer withdrawal form is not available for a company, organisation or a purchase of a professional business nature. Contact us if you want to ask about a voluntary return.</source>
+        <target state="final">Ustawowy formularz konsumenckiego odstąpienia nie jest dostępny dla spółki, organizacji ani zakupu firmowego o charakterze zawodowym. Skontaktuj się z nami, jeśli chcesz zapytać o dobrowolny zwrot.</target>
+      </trans-unit>
+      <trans-unit id="3ead0e8d726b005b770d0f9aab2eb31c" approved="yes">
+        <source>Confirm that the purchase was not of a professional nature for your sole proprietorship.</source>
+        <target state="final">Potwierdź, że zakup nie miał charakteru zawodowego dla Twojej jednoosobowej działalności.</target>
+      </trans-unit>
+      <trans-unit id="925ffc9b4ed9755bfc315473ebb2fc77" approved="yes">
+        <source>The invoice for this order contains company details. Select the sole trader option and make the required declaration, or select a business purchase.</source>
+        <target state="final">Faktura dla tego zamówienia zawiera dane firmy. Wybierz jednoosobową działalność i złóż wymagane oświadczenie albo wskaż zakup firmowy.</target>
+      </trans-unit>
+      <trans-unit id="1ad29d912b2e6074057221e45b96f8bb" approved="yes">
+        <source>The invoice for this order contains company details. Select the sole trader option and make the required declaration, or contact us.</source>
+        <target state="final">Faktura dla tego zamówienia zawiera dane firmy. Wybierz jednoosobową działalność i złóż wymagane oświadczenie albo skontaktuj się z nami.</target>
+      </trans-unit>
+      <trans-unit id="35522da5df4b61d4ed19bf5f93a3fab2" approved="yes">
+        <source>The invoice for this order contains company details. The consumer withdrawal option cannot be used for this order. Contact us if you believe a statutory exception applies.</source>
+        <target state="final">Faktura dla tego zamówienia zawiera dane firmy. Dla tego zamówienia nie można użyć konsumenckiej opcji odstąpienia. Skontaktuj się z nami, jeśli uważasz, że ma zastosowanie wyjątek ustawowy.</target>
+      </trans-unit>
+      <trans-unit id="5d236072c341d33b0527df12b7582b62" approved="yes">
+        <source>Please enter additional information.</source>
+        <target state="final">Wprowadź dodatkowe informacje.</target>
+      </trans-unit>
+      <trans-unit id="edd0a5f20675258833e9e9063cf1cc0c" approved="yes">
+        <source>This form is not available for guest orders. Please contact us directly.</source>
+        <target state="final">Ten formularz nie jest dostępny dla zamówień gości. Skontaktuj się z nami bezpośrednio.</target>
+      </trans-unit>
+      <trans-unit id="f843fa437e6f4c2eb696f1fd78fdd24c" approved="yes">
+        <source>Use this function to submit an online withdrawal statement for a customer order. The configured return period is %days% days from delivery.</source>
+        <target state="final">Użyj tej funkcji, aby złożyć online oświadczenie dotyczące zamówienia klienta. Ustawiony termin zwrotu wynosi %days% dni od dostarczenia.</target>
+      </trans-unit>
+      <trans-unit id="bc16786e830d5f13a4c18334910177bd" approved="yes">
+        <source>Online merchandise returns are temporarily unavailable. Please contact us directly.</source>
+        <target state="final">Zwroty produktów online są tymczasowo niedostępne. Skontaktuj się z nami bezpośrednio.</target>
+      </trans-unit>
+      <trans-unit id="870eb9ee169dc4f6ae3da540cc74548d" approved="yes">
+        <source>This order is not yet eligible for a merchandise return. It must be paid and delivered first.</source>
+        <target state="final">To zamówienie nie jest jeszcze dostępne do zwrotu. Najpierw musi zostać opłacone i dostarczone.</target>
+      </trans-unit>
+      <trans-unit id="9cf3084234648333580322c7bc6a30ce" approved="yes">
+        <source>The configured withdrawal period for this order has expired. Contact us if a longer statutory period applies in your case.</source>
+        <target state="final">Ustawiony termin odstąpienia dla tego zamówienia upłynął. Skontaktuj się z nami, jeśli w Twojej sytuacji obowiązuje dłuższy termin ustawowy.</target>
+      </trans-unit>
+      <trans-unit id="c9967191e5c4ab36bb4b4f692e23c6b2" approved="yes">
+        <source>Online withdrawal statement</source>
+        <target state="final">Oświadczenie o odstąpieniu złożone online</target>
+      </trans-unit>
+      <trans-unit id="51002018e557e9c6411c4db3145abc55" approved="yes">
+        <source>Sole trader with consumer rights</source>
+        <target state="final">Jednoosobowa działalność z prawami konsumenta</target>
+      </trans-unit>
+      <trans-unit id="2423d2b121d86599444c34d2a23a1b81" approved="yes">
+        <source>We received your withdrawal statement</source>
+        <target state="final">Otrzymaliśmy Twoje oświadczenie o odstąpieniu od umowy</target>
+      </trans-unit>
+      <trans-unit id="588a9a4745c8f02dd181122a2d0c8a32" approved="yes">
+        <source>New withdrawal statement</source>
+        <target state="final">Nowe oświadczenie o odstąpieniu od umowy</target>
+      </trans-unit>
+      <trans-unit id="41e3e8455733c8b8878f9edfc1199814" approved="yes">
+        <source>Customer: %name%</source>
+        <target state="final">Klient: %name%</target>
+      </trans-unit>
+      <trans-unit id="1b61f24345b084cbacad62fa2d22e59c" approved="yes">
+        <source>Email: %email%</source>
+        <target state="final">E-mail: %email%</target>
+      </trans-unit>
+      <trans-unit id="50e86f8ef3b9d1eb54ecbe392832464e" approved="yes">
+        <source>Purchase capacity: %status%</source>
+        <target state="final">Charakter zakupu: %status%</target>
+      </trans-unit>
+      <trans-unit id="58d0956a65dfe8a26e4c4c9169d3ee04" approved="yes">
+        <source>Scope: %scope%</source>
+        <target state="final">Zakres: %scope%</target>
+      </trans-unit>
+      <trans-unit id="b52b44c9d23e141b067d7e83b44bb556" approved="yes">
+        <source>Products:</source>
+        <target state="final">Produkty:</target>
+      </trans-unit>
+      <trans-unit id="385d5fc7a4cee5a3574833f4896adf9a" approved="yes">
+        <source>Declaration: the purchase was not of a professional nature for the sole proprietorship.</source>
+        <target state="final">Oświadczenie: zakup nie miał dla jednoosobowej działalności charakteru zawodowego.</target>
+      </trans-unit>
+      <trans-unit id="0f361089adfeb72cd539c7d335c08cdb" approved="yes">
+        <source>Additional information:</source>
+        <target state="final">Dodatkowe informacje:</target>
+      </trans-unit>
+      <trans-unit id="cci_withdrawal_shop_access_subject" approved="yes"><source>Withdrawal access for order %reference%</source><target state="final">Odstąpienie od umowy dla zamówienia %reference%</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_access_here" approved="yes"><source>Withdraw from contract here</source><target state="final">Odstąp od umowy tutaj</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_access_question" approved="yes"><source>Need to withdraw from this contract?</source><target state="final">Chcesz odstąpić od tej umowy?</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_native_created" approved="yes"><source>A native PrestaShop merchandise return was also created for this statement.</source><target state="final">Dla tego oświadczenia utworzono również natywny zwrot produktów PrestaShop.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_manual_review" approved="yes"><source>The statement was recorded independently and is awaiting manual review by the store team.</source><target state="final">Oświadczenie zapisano niezależnie i oczekuje ono na ręczną ocenę zespołu sklepu.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_pdf_title" approved="yes"><source>Withdrawal statement confirmation</source><target state="final">Potwierdzenie oświadczenia o odstąpieniu</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_products" approved="yes"><source>Products</source><target state="final">Produkty</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_submission_datetime" approved="yes"><source>Submission date and time</source><target state="final">Data i godzina złożenia</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_receipt_products" approved="yes"><source>Products covered by the statement</source><target state="final">Produkty objęte oświadczeniem</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_receipt_rma" approved="yes"><source>The statement was also linked to the standard PrestaShop merchandise return workflow.</source><target state="final">Oświadczenie połączono również ze standardowym procesem zwrotów produktów PrestaShop.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_receipt_manual" approved="yes"><source>The statement is validly recorded and will be reviewed by the store team. A merchandise return does not need to be available for the statement to be received.</source><target state="final">Oświadczenie zostało prawidłowo zapisane i zostanie ocenione przez zespół sklepu. Dostępność zwrotu produktu nie jest warunkiem przyjęcia oświadczenia.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_pdf_download" approved="yes"><source>Download PDF confirmation</source><target state="final">Pobierz potwierdzenie PDF</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_guest_intro" approved="yes"><source>Use this function to submit an online withdrawal statement for a customer or guest order. The store uses a standard merchandise return period of %days% days, while exceptional or extended rights are reviewed separately.</source><target state="final">Użyj tej funkcji, aby złożyć online oświadczenie dotyczące zamówienia klienta lub gościa. Sklep stosuje standardowy termin zwrotu produktów wynoszący %days% dni, a sytuacje wyjątkowe lub dłuższe uprawnienia są oceniane oddzielnie.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_customer_intro" approved="yes"><source>Use this function to submit an online withdrawal statement for a customer order. The store uses a standard merchandise return period of %days% days, while exceptional or extended rights are reviewed separately.</source><target state="final">Użyj tej funkcji, aby złożyć online oświadczenie dotyczące zamówienia klienta. Sklep stosuje standardowy termin zwrotu produktów wynoszący %days% dni, a sytuacje wyjątkowe lub dłuższe uprawnienia są oceniane oddzielnie.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_digital_note" approved="yes"><source>This digital item will be recorded in the statement and reviewed separately from the merchandise return workflow.</source><target state="final">Ten produkt cyfrowy zostanie zapisany w oświadczeniu i oceniony niezależnie od procesu zwrotu produktów.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_rate_limit" approved="yes"><source>Too many unsuccessful attempts. Wait 15 minutes and try again, or contact us.</source><target state="final">Zbyt wiele nieudanych prób. Odczekaj 15 minut i spróbuj ponownie albo skontaktuj się z nami.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_invalid_receipt" approved="yes"><source>This confirmation link is invalid or incomplete. Check the link in your email or contact us.</source><target state="final">Ten link potwierdzający jest nieprawidłowy lub niepełny. Sprawdź link w wiadomości e-mail albo skontaktuj się z nami.</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_optional_information" approved="yes"><source>Additional information (optional)</source><target state="final">Dodatkowe informacje (opcjonalnie)</target></trans-unit>
+      <trans-unit id="cci_withdrawal_shop_privacy" approved="yes"><source>We use these details only to identify the order, record the withdrawal statement and send its confirmation. Submitting the statement does not require marketing consent.</source><target state="final">Używamy tych danych wyłącznie do identyfikacji zamówienia, zapisania oświadczenia o odstąpieniu i wysłania jego potwierdzenia. Złożenie oświadczenia nie wymaga zgody marketingowej.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

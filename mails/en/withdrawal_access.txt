@@ -1,0 +1,10 @@
+Hello {customer_name},
+
+If you need to withdraw from order {order_reference}, use the secure link below:
+
+{withdrawal_url}
+
+The link opens a review and confirmation flow. Opening it does not submit a withdrawal statement.
+
+{shop_name}
+{shop_email}
