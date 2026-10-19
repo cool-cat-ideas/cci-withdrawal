@@ -55,7 +55,7 @@ class Cci_Withdrawal extends Module
         $this->bootstrap = true;
         $this->ps_versions_compliancy = [
             'min' => '9.0.0',
-            'max' => '9.1.5',
+            'max' => '9.2.0',
         ];
 
         parent::__construct();
@@ -429,7 +429,18 @@ class Cci_Withdrawal extends Module
 
     public function getWithdrawalLink(): string
     {
-        return $this->context->link->getModuleLink($this->name, 'form', [], true);
+        return $this->buildWithdrawalLink([], (int) $this->context->language->id, (int) $this->context->shop->id);
+    }
+
+    private function buildWithdrawalLink(array $params, int $idLang, int $idShop): string
+    {
+        // Module routes are shared by all languages, so select the named route
+        // explicitly instead of always using the Polish getModuleLink default.
+        $route = Language::getIsoById($idLang) === 'pl'
+            ? 'module-cci_withdrawal-form'
+            : 'module-cci_withdrawal-form-en';
+
+        return $this->context->link->getPageLink($route, true, $idLang, $params, false, $idShop);
     }
 
     public function getFormToken(): string
@@ -471,10 +482,10 @@ class Cci_Withdrawal extends Module
 
     public function getOrderWithdrawalLink(Order $order): string
     {
-        return $this->context->link->getModuleLink($this->name, 'form', [
+        return $this->buildWithdrawalLink([
             'withdrawal_order' => (int) $order->id,
             'withdrawal_access' => $this->getOrderAccessToken($order),
-        ], true, (int) $order->id_lang, (int) $order->id_shop);
+        ], (int) $order->id_lang, (int) $order->id_shop);
     }
 
     public function resolveOrderAccessRequest(int $orderId, string $accessToken = ''): ?Order

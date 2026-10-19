@@ -47,6 +47,7 @@ class AdminCciWithdrawalSubmissionsController extends ModuleAdminController
             'date_add' => [
                 'title' => $this->trans('Submission date', [], 'Modules.Cciwithdrawal.Admin'),
                 'type' => 'datetime',
+                'callback' => 'renderSubmissionDate',
                 'filter_key' => 'a!date_add',
             ],
             'order_reference_live' => [
@@ -139,6 +140,29 @@ class AdminCciWithdrawalSubmissionsController extends ModuleAdminController
         return is_object($this->module) && method_exists($this->module, 'renderWithdrawalsPage')
             ? $this->module->renderWithdrawalsPage($list)
             : $list;
+    }
+
+    /** Format inbox and detail dates without changing the immutable statement snapshot. */
+    public function renderSubmissionDate($date): string
+    {
+        $value = trim((string) $date);
+        if ($value === '' || str_starts_with($value, '0000-00-00')) {
+            return '-';
+        }
+
+        try {
+            $timezone = new DateTimeZone((string) Configuration::get('PS_TIMEZONE') ?: 'Europe/Warsaw');
+            $dateTime = new DateTimeImmutable($value, $timezone);
+            $errors = DateTimeImmutable::getLastErrors();
+            if ($errors && ($errors['warning_count'] > 0 || $errors['error_count'] > 0)) {
+                return '-';
+            }
+
+            // SQL dates already use shop time; explicit offsets are converted to that same zone.
+            return $dateTime->setTimezone($timezone)->format('Y-m-d H:i');
+        } catch (Throwable $exception) {
+            return '-';
+        }
     }
 
     public function renderOrderLink($reference, array $row): string
@@ -266,7 +290,7 @@ class AdminCciWithdrawalSubmissionsController extends ModuleAdminController
             . $this->escapeHtml($this->module->getWithdrawalReference($submissionId)) . '</div>'
             . '<dl class="cci-withdrawal-submission-facts">'
             . '<dt>' . $this->escapeHtml($this->trans('Submission date', [], 'Modules.Cciwithdrawal.Admin')) . '</dt>'
-            . '<dd>' . $this->escapeHtml($payload['submitted_at_display'] ?? $submission['date_add']) . '</dd>'
+            . '<dd>' . $this->renderSubmissionDate($payload['submitted_at'] ?? $submission['date_add']) . '</dd>'
             . '<dt>' . $this->escapeHtml($this->trans('Order', [], 'Admin.Global')) . '</dt>'
             . '<dd><a href="' . $this->escapeHtml($orderUrl) . '">'
             . $this->escapeHtml($submission['order_reference']) . '</a></dd>'

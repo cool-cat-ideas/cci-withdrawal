@@ -3,7 +3,8 @@
 ## Stable integration points
 
 - Public route name: `module-cci_withdrawal-form`.
-- Default route rule: `odstapienie-od-umowy`.
+- Polish route rule: `odstapienie-od-umowy`; English/fallback route: `withdrawal-form`.
+- `getWithdrawalLink()` selects the current language; order links select the order language and shop. Both URLs remain valid.
 - Front controller: `controllers/front/form.php`.
 - Front template: `views/templates/front/form.tpl`.
 - Scoped styles: `views/css/front.css` and `views/css/admin.css`.

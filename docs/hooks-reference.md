@@ -6,7 +6,9 @@
 
 Input is the standard PrestaShop route-build context. Returns two descriptors for
 the `form` controller: `withdrawal-form` and `odstapienie-od-umowy`. Neither route
-contains customer data or a mutable token.
+contains customer data or a mutable token. Link generation selects the Polish
+route for Polish and the English route for other languages; order links use the
+order language and retain their access parameters.
 
 ### `registerGDPRConsent`
 

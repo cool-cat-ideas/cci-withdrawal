@@ -234,6 +234,10 @@
   font-weight: 700;
 }
 
+.cci-withdrawal-admin-shell .cci-native-admin-content .table-responsive-row {
+  overflow-x: auto;
+}
+
 .cci-withdrawal-admin-shell .cci-native-admin-content .table {
   margin-bottom: 0;
 }

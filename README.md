@@ -1,6 +1,10 @@
+<p align="center"><img src="views/img/cool-cat-ideas-logo.svg" alt="Cool Cat Ideas — CCI Withdrawal Form" width="320"></p>
+
 # CCI Withdrawal Form
 
 Let a customer or guest submit a full or partial withdrawal statement online. The module first stores an immutable statement snapshot and then, when PrestaShop can represent the request, creates a native merchandise return. It never issues a refund automatically.
+
+Download the module ZIP from the [Cool Cat Ideas product page](https://coolcatideas.com/products/cci-withdrawal-form/).
 
 ## Set it up
 
@@ -24,7 +28,7 @@ The module works without a license key. It does not decide whether a customer ha
 
 ## Compatibility
 
-- PrestaShop 9.0.0-9.1.5;
+- PrestaShop 9.0.0-9.2.0;
 - PHP version supported by the installed PrestaShop release;
 - native merchandise returns are optional and used as an adapter when available.
 
@@ -36,8 +40,4 @@ Academic Free License 3.0 (AFL-3.0). See `LICENSE.md`.
 
 Use the product repository under https://github.com/orgs/cool-cat-ideas/repositories for public questions and bug reports. This channel has no guaranteed response time. When you need a private request with an agreed scope, buy a support service on the product page; the request and further messages are then handled in the Cool Cat Ideas customer panel.
 
-## Changelog
-
-### 1.0.0
-
-- First public release.
+Release history is available in the [changelog](CHANGELOG.md).
