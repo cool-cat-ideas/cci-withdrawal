@@ -2,7 +2,7 @@
 <module>
     <name>cci_withdrawal</name>
     <displayName><![CDATA[CCI Withdrawal Form]]></displayName>
-    <version><![CDATA[1.0.0]]></version>
+    <version><![CDATA[1.0.1]]></version>
     <description><![CDATA[Zapisuje pełne lub częściowe oświadczenia o odstąpieniu niezależnie i łączy zgodne zgłoszenia z natywnym procesem zwrotów PrestaShop.]]></description>
     <author><![CDATA[Cool Cat Ideas]]></author>
     <tab><![CDATA[front_office_features]]></tab>

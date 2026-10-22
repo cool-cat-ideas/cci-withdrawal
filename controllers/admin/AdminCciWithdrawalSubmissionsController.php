@@ -92,7 +92,13 @@ class AdminCciWithdrawalSubmissionsController extends ModuleAdminController
     public function postProcess()
     {
         if (Tools::isSubmit('resendCciWithdrawalConfirmation')) {
-            $submissionId = (int) Tools::getValue($this->identifier);
+            if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST' || !$this->access('edit') || !$this->checkToken()) {
+                http_response_code(403);
+                $this->errors[] = $this->trans('You do not have permission to resend this confirmation.', [], 'Modules.Cciwithdrawal.Admin');
+                return;
+            }
+
+            $submissionId = (int) Tools::getValue('resendCciWithdrawalConfirmation');
             $submission = $this->module->getWithdrawalSubmission($submissionId);
             $result = $submission && (int) $submission['id_shop'] === (int) $this->context->shop->id
                 ? $this->module->sendSubmissionEmails($submissionId, false)
@@ -242,17 +248,18 @@ class AdminCciWithdrawalSubmissionsController extends ModuleAdminController
             . $this->escapeHtml($this->trans('View statement', [], 'Modules.Cciwithdrawal.Admin'))
             . '</a>';
 
-        if (($row['confirmation_status'] ?? '') === 'sent') {
+        if (($row['confirmation_status'] ?? '') === 'sent' || !$this->access('edit')) {
             return $actions;
         }
 
-        $url = $this->context->link->getAdminLink('AdminCciWithdrawalSubmissions')
-            . '&resendCciWithdrawalConfirmation=1&' . $this->identifier . '=' . (int) $submissionId;
-
-        return $actions . ' <a class="btn btn-default" href="' . $this->escapeHtml($url) . '">'
+        $url = $this->context->link->getAdminLink('AdminCciWithdrawalSubmissions');
+        // HelperList already wraps the table in a POST form with its CSRF token.
+        return $actions . ' <button type="submit" name="resendCciWithdrawalConfirmation" value="' . (int) $submissionId
+            . '" formaction="' . $this->escapeHtml($url) . '" formmethod="post" class="btn btn-default">'
             . '<i class="icon-envelope"></i> '
             . $this->escapeHtml($this->trans('Send again', [], 'Modules.Cciwithdrawal.Admin'))
-            . '</a>';
+            . '</button>';
+
     }
 
     private function renderSubmissionDetail(int $submissionId): string

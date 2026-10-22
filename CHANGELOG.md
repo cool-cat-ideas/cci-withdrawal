@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Require edit permissions and validated POST requests for settings changes and confirmation retries.
+
 ## 1.0.0
 
 - First public release.
