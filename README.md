@@ -2,13 +2,15 @@
 
 # CCI Withdrawal Form
 
-Let a customer or guest submit a full or partial withdrawal statement online. The module first stores an immutable statement snapshot and then, when PrestaShop can represent the request, creates a native merchandise return. It never issues a refund automatically.
+Customers can submit a withdrawal statement for an entire order or selected items without printing a form or composing an email. CCI Withdrawal Form records the statement in PrestaShop and keeps it available for staff to review. It does not decide whether the customer has a right to withdraw or issue a refund automatically.
+
+The statement is saved before any return workflow begins. If the request meets PrestaShop's native return conditions, the module also creates a merchandise return. Otherwise, the statement remains available for manual review.
 
 Download the module ZIP from the [Cool Cat Ideas product page](https://coolcatideas.com/products/cci-withdrawal-form/).
 
 ## Set it up
 
-1. Install `cci_withdrawal-1.0.0.zip` in **Modules > Module Manager**.
+1. Download the current CCI Withdrawal Form ZIP from the product page and install it in **Modules > Module Manager**.
 2. Open **Cool Cat Ideas > CCI Withdrawal Form** and review buyer, product, access-link, email and PDF settings.
 3. Optionally enable merchandise returns in **Shop Parameters > Order Settings** to create RMA records automatically.
 4. Confirm the configured link appears in the footer, customer account, order details and checkout confirmation.
