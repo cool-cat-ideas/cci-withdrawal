@@ -13,7 +13,7 @@ Use CCI Withdrawal Form when customers should be able to send a withdrawal state
 
 The form can cover all products in an order or selected items and quantities. It does not decide whether a customer has a legal right to withdraw, and it does not issue a refund automatically.
 
-The module works without a license key and supports PrestaShop 9.0.0-9.1.5.
+The module works without a license key and supports PrestaShop 9.0 through 9.2, including patch releases.
 
 ## More help
 

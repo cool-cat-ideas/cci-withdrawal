@@ -30,7 +30,7 @@ The module works without a license key. It does not decide whether a customer ha
 
 ## Compatibility
 
-- PrestaShop 9.0.0-9.2.0;
+- PrestaShop 9.0 through 9.2, including patch releases;
 - PHP version supported by the installed PrestaShop release;
 - native merchandise returns are optional and used as an adapter when available.
 
